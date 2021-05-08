@@ -1,7 +1,7 @@
 section .data
-	FEW_ARGS: db "Too Few Arguments", 0xA
-	INVALID_OPERATOR: db "Invalid Operator", 0xA
-	INVALID_OPERAND: db "Invalid Operand", 0XA
+	FEW_ARGS: db "few args", 0xA
+	INVALID_OPERATOR: db "invalid operator", 0xA
+	INVALID_OPERAND: db "invalid operand", 0XA
 	BYTE_BUFFER: times 10 db 0
 section .text
 	global _start
